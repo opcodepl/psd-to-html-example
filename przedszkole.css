@@ -1,0 +1,58 @@
+html { font-family: Georgia; font-size: 13px; color: #a05e81; }
+body { background: url(gfx/top-bg.jpg) no-repeat center 0; margin: 0 auto; }
+.content { width: 1000px; margin: 0 auto; }
+
+a { color: #a05e81; }
+
+img { border: 0; }
+
+#menu { height: 52px; }
+#menu ul { display: block; margin: 0; padding: 0; list-style-type: none; float: right; }
+#menu li { float: left; }
+#menu li a { display: block; height: 37px; text-align: center; color: #fff; padding: 15px 22px 0 22px; text-decoration: none; font-size: 16px; font-style: italic; background: url(gfx/menu-bg.png) 0 0; }
+#menu li a:hover { color: #fff; text-decoration: none; background-position: 0 -52px; }
+
+#menu ul li ul { display: none; background: url(gfx/submenu-hover.png) no-repeat center 0; padding: 16px 0 0px 0; }
+#menu ul li:hover ul { display: block; position: absolute; } 
+#menu ul li ul li { float: none; margin: 0; padding-top: 2px; }
+#menu ul li ul li a { display: block; background: none; text-align: center; height: 16px; font-size: 12px; padding: 0 2px; }
+#menu ul li ul li a:hover { color: #b4b4b4; }
+
+#dla-dzieci .long { padding-left: 40px; padding-right: 40px; }
+
+#logo { margin: 38px 0 0 80px; float: left; }
+
+#ramka { width: 467px; height: 222px; float: right; background: url(gfx/ramka-top.png) no-repeat; overflow: hidden; margin: 29px 0 0 0; color: #fff; font-style: italic; padding: 20px; }
+#ramka p { font-size: 15px; }
+#ramka p.big { font-size: 20px; margin-top: 0; }
+
+#zapisz { float: right; width: 487px; height: 80px; margin-top: 20px; background: url(gfx/gwiazdka.png) no-repeat right center; padding-left: 20px; font-size: 25px; color: #fff; font-style: italic; }
+#zapisz p { margin-top: 0; }
+#zapisz span { font-size: 38px; }
+
+#top { height: 480px; width: 100%; float: left; }
+#slogan { float: left; width: 100%; color: #a65c81; line-height: 120%; font-size: 20px; font-style: italic; text-align: center; }
+#slogan p { margin-top: 0; }
+#slogan span { font-size: 14px; }
+
+#page { float: left; width: 100%; background: url(gfx/middle-bg.jpg) repeat-y center 0; }
+#left { width: 500px; float: left; }
+#box-aktualnosci { background: url(gfx/box-aktualnosci.png) no-repeat; width: 450px; height: 302px; overflow: hidden; padding: 40px 30px 20px 20px; }
+#box-aktualnosci h3 { font-size: 25px; font-style: italic; margin-top: 0; margin-bottom: 5px;  }
+#box-aktualnosci .data { font-size: 15px; font-style: italic; }
+#box-aktualnosci p { margin-top: 0; font-style: italic; }
+
+.linia { width: 100%; height: 1px; background: url(gfx/linia.png) repeat-x; margin: 0 0 10px 0; }
+
+#right { width: 471px; margin-left: 29px; float: left; }
+.box-galeria { width: 213px; float: left; margin: 30px 44px 20px 0; font-style: italic; }
+.last { margin-right: 0; }
+.box-galeria a { float: right; }
+
+#footer { width: 1000px; height: 49px; background: url(gfx/ramka-stopka.png); margin: 0 auto; }
+#footer ul { margin: 0 auto; padding: 0; list-style-type: none; display: block; width: 600px;  }
+#footer li { float: left; margin: 15px 0 0 0; }
+#footer li a { margin: 0 10px; text-decoration: none; font-style: italic; }
+
+
+.clear { clear: both; }
